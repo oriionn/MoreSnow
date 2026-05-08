@@ -1,4 +1,4 @@
 {
   "replace": false,
-  "values": ["moresnow:blue_snow_block"]
+  "values": ["moresnow:blue_snow_block", "moresnow:blue_snow_golem_core"]
 }
