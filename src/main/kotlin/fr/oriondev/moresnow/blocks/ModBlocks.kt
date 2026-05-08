@@ -21,6 +21,13 @@ object ModBlocks {
         )
     )
 
+    val BLUE_SNOW_GOLEM_CORE = registerBlock(
+        "blue_snow_golem_core",
+        Block(
+            AbstractBlock.Settings.copy(Blocks.SNOW_BLOCK)
+        )
+    )
+
     private fun registerBlock(name: String, block: Block): Block {
         registerBlockItem(name, block)
         return Registry.register(
@@ -43,6 +50,9 @@ object ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register {
             it.add(BLUE_SNOW_BLOCK)
+        }
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register {
+            it.add(BLUE_SNOW_GOLEM_CORE)
         }
     }
 }

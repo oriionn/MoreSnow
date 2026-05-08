@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building_block",
+  "key": {
+    "#": {
+      "item": "moresnow:blue_snow_block"
+    },
+    "/": {
+      "item": "minecraft:diamond"
+    },
+    "*": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    "#*#",
+    "*/*",
+    "#*#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "moresnow:blue_snow_golem_core"
+  }
+}

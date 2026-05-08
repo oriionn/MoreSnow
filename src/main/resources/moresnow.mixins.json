@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "fr.oriondev.mixin",
+	"package": "fr.oriondev.moresnow.mixins",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ColdProtection"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,9 +1,8 @@
 package fr.oriondev.moresnow.items
 
-import fr.oriondev.moresnow.entity.BlueSnowballEntity
+import fr.oriondev.moresnow.entities.BlueSnowballEntity
 import net.minecraft.entity.player.PlayerEntity
 import net.minecraft.entity.projectile.ProjectileEntity
-import net.minecraft.entity.projectile.thrown.SnowballEntity
 import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
 import net.minecraft.item.ProjectileItem

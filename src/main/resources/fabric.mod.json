@@ -20,6 +20,12 @@
 				"value": "fr.oriondev.moresnow.MoreSnow",
 				"adapter": "kotlin"
 			}
+		],
+		"client": [
+			{
+				"value": "fr.oriondev.moresnow.MoreSnowClient",
+				"adapter": "kotlin"
+			}
 		]
 	},
 	"mixins": [

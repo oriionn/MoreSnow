@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "moresnow:block/blue_snow_golem_core"
+  }
+}

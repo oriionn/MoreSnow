@@ -23,6 +23,9 @@ object ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register {
             it.add(BLUE_SNOWBALL)
         }
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register {
+            it.add(BLUE_SNOWBALL)
+        }
 
         DispenserBlock.registerBehavior(BLUE_SNOWBALL, ProjectileDispenserBehavior(BLUE_SNOWBALL))
     }

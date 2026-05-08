@@ -1,5 +1,7 @@
 {
   "block.moresnow.blue_snow_block": "Blue Snow Block",
+  "block.moresnow.blue_snow_golem_core": "Blue Snow Golem Core",
   "item.moresnow.blue_snowball": "Blue Snowball",
-  "effect.moresnow.snowy": "Snowy"
+  "effect.moresnow.snowy": "Snowy",
+  "echantment.moresnow.cold_protection": "Cold Protection"
 }
