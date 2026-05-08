@@ -1,4 +1,5 @@
 {
   "block.moresnow.blue_snow_block": "Blue Snow Block",
-  "item.moresnow.blue_snowball": "Blue Snowball"
+  "item.moresnow.blue_snowball": "Blue Snowball",
+  "effect.moresnow.snowy": "Snowy"
 }
