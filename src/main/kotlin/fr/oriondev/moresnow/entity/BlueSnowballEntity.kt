@@ -16,7 +16,7 @@ class BlueSnowballEntity: SnowballEntity {
 
         val entity = entityHitResult.entity
         if (entity is LivingEntity && !entity.isInCreativeMode) {
-            val instance = StatusEffectInstance(ModEffects.SNOWY, 20 * 15, 0, false, false, false)
+            val instance = StatusEffectInstance(ModEffects.SNOWY, 20 * 5, 0, false, false, false)
             entity.addStatusEffect(instance)
         }
     }

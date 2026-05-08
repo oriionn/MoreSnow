@@ -8,6 +8,7 @@ import net.minecraft.entity.effect.StatusEffectCategory
 class SnowyEffect(category: StatusEffectCategory, color: Int): StatusEffect(category, color) {
     override fun applyUpdateEffect(entity: LivingEntity, amplifier: Int): Boolean {
         entity.setInPowderSnow(true)
+        entity.frozenTicks = entity.minFreezeDamageTicks
         return super.applyUpdateEffect(entity, amplifier)
     }
 
