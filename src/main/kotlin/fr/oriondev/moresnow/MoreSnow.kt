@@ -17,6 +17,7 @@ object MoreSnow : ModInitializer {
 		ModBlocks.register()
 		ModItems.register()
 		ModEffects.register()
+		ModEntities.register()
 
 		FabricDefaultAttributeRegistry.register(ModEntities.BLUE_SNOW_GOLEM, BlueSnowGolemEntity.createAttributes())
 	}

@@ -3,7 +3,8 @@
 	"package": "fr.oriondev.moresnow.mixins",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ColdProtection"
+		"ColdProtection",
+		"CreeperBlueSnowGolem"
 	],
 	"injectors": {
 		"defaultRequire": 1

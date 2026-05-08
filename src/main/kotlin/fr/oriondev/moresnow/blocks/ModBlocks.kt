@@ -23,7 +23,7 @@ object ModBlocks {
 
     val BLUE_SNOW_GOLEM_CORE = registerBlock(
         "blue_snow_golem_core",
-        Block(
+        BlueSnowGolemCore(
             AbstractBlock.Settings.copy(Blocks.SNOW_BLOCK)
         )
     )
