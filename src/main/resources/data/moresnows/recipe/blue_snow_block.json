@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building_block",
+  "key": {
+    "#": {
+      "item": "minecraft:snow_block"
+    },
+    "/": {
+      "item": "minecraft:blue_ice"
+    }
+  },
+  "pattern": [
+    "###",
+    "#/#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "moresnows:blue_snow_block"
+  }
+}
