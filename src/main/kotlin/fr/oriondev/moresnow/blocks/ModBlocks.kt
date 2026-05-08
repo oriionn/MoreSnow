@@ -1,6 +1,6 @@
-package fr.oriondev.blocks
+package fr.oriondev.moresnow.blocks
 
-import fr.oriondev.MoreSnows
+import fr.oriondev.moresnow.MoreSnow
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
 import net.minecraft.block.AbstractBlock
 import net.minecraft.block.Block
@@ -24,7 +24,7 @@ object ModBlocks {
         registerBlockItem(name, block)
         return Registry.register(
             Registries.BLOCK,
-            Identifier.of(MoreSnows.MOD_ID, name),
+            Identifier.of(MoreSnow.MOD_ID, name),
             block
         )
     }
@@ -32,13 +32,13 @@ object ModBlocks {
     private fun registerBlockItem(name: String, block: Block) {
         Registry.register(
             Registries.ITEM,
-            Identifier.of(MoreSnows.MOD_ID, name),
+            Identifier.of(MoreSnow.MOD_ID, name),
             BlockItem(block, Item.Settings())
         )
     }
 
     fun register() {
-        MoreSnows.logger.info("Registering Mod Blocks")
+        MoreSnow.logger.info("Registering blocks.")
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register {
             it.add(BLUE_SNOW_BLOCK)

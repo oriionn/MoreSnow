@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "moresnows",
+	"id": "moresnow",
 	"version": "${version}",
-	"name": "More Snows",
+	"name": "More Snow",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,18 +12,18 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/moresnows/icon.png",
+	"icon": "assets/moresnow/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "fr.oriondev.MoreSnows",
+				"value": "fr.oriondev.moresnow.MoreSnow",
 				"adapter": "kotlin"
 			}
 		]
 	},
 	"mixins": [
-		"moresnows.mixins.json"
+		"moresnow.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.2",

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "moresnows:block/blue_snow_block"
+    "all": "moresnow:block/blue_snow_block"
   }
 }
