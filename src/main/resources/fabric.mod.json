@@ -3,9 +3,9 @@
 	"id": "moresnow",
 	"version": "${version}",
 	"name": "More Snow",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A simple Minecraft mod that adds a new type of snow to the game",
 	"authors": [
-		"Me!"
+		"Orion"
 	],
 	"contact": {
 		"homepage": "https://git.oriondev.fr/orion/MoreSnow",
