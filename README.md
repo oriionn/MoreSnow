@@ -1,5 +1,6 @@
 # More Snow
 A simple Minecraft mod that adds a new type of snow to the game.
+
 **This mods requires Fabric API and Fabric Kotlin Language**
 
 ## Features
