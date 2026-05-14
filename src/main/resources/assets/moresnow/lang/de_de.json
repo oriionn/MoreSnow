@@ -3,5 +3,6 @@
   "block.moresnow.blue_snow_golem_core": "Blauer Schneegolem-Kern",
   "item.moresnow.blue_snowball": "Blaue Schneekugel",
   "effect.moresnow.snowy": "Verschneit",
-  "enchantment.moresnow.cold_protection": "Kälteschutz"
+  "enchantment.moresnow.cold_protection": "Kälteschutz",
+  "entity.moresnow.blue_snow_golem": "Blauer Schneegolem"
 }
