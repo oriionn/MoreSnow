@@ -23,7 +23,10 @@ class BlueSnowGolemEntity(entityType: EntityType<out PassiveEntity>, world: Worl
     }
 
     override fun createChild(world: ServerWorld?, entity: PassiveEntity?): PassiveEntity? {
-
         return ModEntities.BLUE_SNOW_GOLEM.create(world)
+    }
+
+    override fun isPersistent(): Boolean {
+        return true
     }
 }
